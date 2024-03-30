@@ -1,11 +1,31 @@
 // default style start//
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+div.body-container{
+    max-width: 1920px;
+    height: auto;
+    margin:auto;
+    padding: 30px;
+    background-color: white;
+}
 div.container{
     max-width: 1320px;
-    padding:30px;
-    background-color: white; 
+    height: auto;
+    margin:auto;
+    padding-left:15px;
+    padding-right: 15px;
 }
 //default style end //
-
+@import "syed";
+@import "chaitali";
+@import "rajat";
+@import "sunny";
+@import "akash";
+@import "vishal";
 // IMPORTANT NOTE: PLEASE ADD YOUR STYLE INSIDE YOUR COMMENT BOX.
 
 // syed bhai styles part start//
