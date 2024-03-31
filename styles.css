@@ -21,6 +21,181 @@ div.container {
   padding-right: 15px;
 }
 
+section#sk-newyork,
+section#sk-travels-sayings {
+  box-sizing: border-box;
+}
+
+section#sk-newyork h2 {
+  color: #05073c;
+  font-size: 29.77px;
+  font-weight: 700;
+  line-height: 45px;
+  text-align: left;
+}
+section#sk-newyork h2 span {
+  color: #c6c6d2;
+}
+section#sk-newyork #cards-box {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+}
+section#sk-newyork .cards {
+  border: 1px solid #e7e6e6;
+  border-radius: 12px;
+}
+section#sk-newyork .cards img {
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+section#sk-newyork .cards .city {
+  width: fit-content;
+  margin-top: 10px;
+  margin-left: 42px;
+  font-size: 11.98px;
+  color: #717171;
+  font-weight: 400;
+  line-height: 24.38px;
+  text-align: left;
+}
+section#sk-newyork .cards .description {
+  width: fit-content;
+  text-wrap: wrap;
+  margin-top: 10px;
+  margin-left: 21px;
+  padding-right: 3px;
+  color: #05073c;
+  font-size: 15.63px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+}
+section#sk-newyork .cards .rating {
+  margin-top: 10px;
+  margin-left: 101px;
+  font-size: 12.49px;
+  font-weight: 400;
+  line-height: 24.38px;
+  text-align: left;
+  color: #05073c;
+}
+section#sk-newyork .cards div.rate {
+  margin: 15px 21px 11px 21px;
+  border-top: 1px solid #e7e6e6;
+  padding: 0px 15px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 12.59px;
+  font-weight: 400;
+  line-height: 24.38px;
+  color: #05073c;
+}
+section#sk-newyork .cards div.rate .days {
+  display: flex;
+  justify-content: end;
+}
+section#sk-newyork .cards div.rate span {
+  font-size: 15.13px;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+section#sk-travels-sayings {
+  background: #05073c;
+  color: #ffffff;
+  border-radius: 12px;
+  padding: 75px 270px;
+  margin-top: 105px;
+}
+section#sk-travels-sayings p {
+  margin: 0px;
+}
+section#sk-travels-sayings div#content-box {
+  padding: 15px;
+}
+section#sk-travels-sayings div#content-box > div:nth-child(1) {
+  display: flex;
+  gap: 235px;
+  justify-content: space-between;
+}
+section#sk-travels-sayings div#content-box > div:nth-child(1) #s-box1 {
+  margin-top: 95px;
+  height: 280px;
+}
+section#sk-travels-sayings div#content-box > div:nth-child(1) #s-box1 p {
+  font-size: 30px;
+  text-wrap: wrap;
+  font-weight: 700;
+  line-height: 45px;
+}
+section#sk-travels-sayings div#content-box > div:nth-child(1) #s-box1 #c-box-flex {
+  display: flex;
+  justify-content: space-between;
+}
+section#sk-travels-sayings div#content-box > div:nth-child(1) #s-box1 #c-box-flex > div {
+  flex-basis: 50%;
+  padding: 15px 20px;
+}
+section#sk-travels-sayings div#content-box > div:nth-child(1) #s-box1 #c-box-flex .p1 {
+  font-size: 39px;
+  font-weight: 700;
+  line-height: 75px;
+  text-align: left;
+}
+section#sk-travels-sayings div#content-box > div:nth-child(1) #s-box1 #c-box-flex .p2 {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 28.13px;
+  text-align: left;
+}
+section#sk-travels-sayings div#content-box > div:nth-child(1) #s-box2 {
+  background: #ffffff;
+  color: #05073C;
+  height: 340px;
+  border-radius: 24px;
+  padding: 50px 40px 30px 40px;
+  box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.0509803922);
+}
+section#sk-travels-sayings div#content-box > div:nth-child(1) #s-box2 > p:nth-of-type(1) {
+  color: red;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 33.75px;
+  text-align: left;
+  margin-bottom: 19px;
+}
+section#sk-travels-sayings div#content-box > div:nth-child(1) #s-box2 .p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 28.13px;
+  text-align: left;
+}
+section#sk-travels-sayings div#content-box > div:nth-child(1) #s-box2 > div {
+  display: flex;
+  margin-top: 25px;
+  gap: 20px;
+  justify-content: flex-start;
+  align-items: center;
+}
+section#sk-travels-sayings div#content-box > div:nth-child(1) #s-box2 > div > p:first-of-type {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 25.6px;
+  text-align: left;
+}
+section#sk-travels-sayings div#m-box {
+  margin: 100px auto;
+  font-size: 14.53px;
+  font-weight: 400;
+  line-height: 22.5px;
+  text-align: center;
+}
+section#sk-travels-sayings #img-flex {
+  display: flex;
+  justify-content: space-around;
+}
+
 #ak-travel-stories .ak_upbox {
   display: flex;
   justify-content: space-between;
@@ -35,7 +210,7 @@ div.container {
   font-size: 29.65px;
   font-weight: 700;
   line-height: 45px;
-  color: #05073C;
+  color: #05073c;
 }
 #ak-travel-stories .ak_upbox p {
   padding-top: 21.88px;
@@ -46,7 +221,7 @@ div.container {
   font-family: Inter;
   font-size: 14.3px;
   font-weight: 400;
-  color: #05073C;
+  color: #05073c;
 }
 #ak-travel-stories .ak_cardbox {
   display: flex;
@@ -58,7 +233,7 @@ div.container {
   border-radius: 12px;
 }
 #ak-travel-stories .ak_cardbox p {
-  color: #05073C;
+  color: #05073c;
 }
 #ak-travel-stories .ak_cardbox .ak_card1 {
   display: flex;
@@ -75,7 +250,7 @@ div.container {
   padding: 9px 14.8px 9.25px 15px;
   border-radius: 200px;
   opacity: 0px;
-  background: #FFFFFF;
+  background: #ffffff;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -86,12 +261,12 @@ div.container {
   font-size: 13.56px;
   font-weight: 500;
   line-height: 26.25px;
-  color: #05073C;
+  color: #05073c;
 }
 #ak-travel-stories .ak_cardbox .ak_card1 span {
   width: 1px;
   height: 26px;
-  color: #E7E6E6;
+  color: #e7e6e6;
 }
 #ak-travel-stories .ak_cardbox .ak_card1 h3 {
   width: 366.92px;
@@ -100,7 +275,7 @@ div.container {
   font-size: 17.3px;
   font-weight: 500;
   line-height: 27px;
-  color: #05073C;
+  color: #05073c;
 }
 #ak-travel-stories .ak_cardbox .ak_card2 {
   display: flex;
@@ -117,7 +292,7 @@ div.container {
   padding: 9px 14.8px 9.25px 15px;
   border-radius: 200px;
   opacity: 0px;
-  background: #FFFFFF;
+  background: #ffffff;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -131,12 +306,12 @@ div.container {
   font-size: 13.56px;
   font-weight: 500;
   line-height: 26.25px;
-  color: #05073C;
+  color: #05073c;
 }
 #ak-travel-stories .ak_cardbox .ak_card2 span {
   width: 1px;
   height: 26px;
-  color: #E7E6E6;
+  color: #e7e6e6;
 }
 #ak-travel-stories .ak_cardbox .ak_card2 h3 {
   width: 377.95px;
@@ -145,7 +320,7 @@ div.container {
   font-size: 17.58px;
   font-weight: 500;
   line-height: 27px;
-  color: #05073C;
+  color: #05073c;
 }
 #ak-travel-stories .ak_cardbox .ak_card3 {
   display: flex;
@@ -162,7 +337,7 @@ div.container {
   padding: 9px 14.8px 9.25px 15px;
   border-radius: 200px;
   opacity: 0px;
-  background: #FFFFFF;
+  background: #ffffff;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -176,12 +351,12 @@ div.container {
   font-size: 13.56px;
   font-weight: 500;
   line-height: 26.25px;
-  color: #05073C;
+  color: #05073c;
 }
 #ak-travel-stories .ak_cardbox .ak_card3 span {
   width: 1px;
   height: 26px;
-  color: #E7E6E6;
+  color: #e7e6e6;
 }
 #ak-travel-stories .ak_cardbox .ak_card3 h3 {
   width: 386.68px;
@@ -190,6 +365,7 @@ div.container {
   font-size: 17.58px;
   font-weight: 500;
   line-height: 27px;
-  color: #05073C;
+  color: #05073c;
 }
+
 /*# sourceMappingURL=styles.css.map */
