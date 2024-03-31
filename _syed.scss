@@ -2,7 +2,7 @@
     margin: auto;
     width: 1860px;
     height: 854px;
-    background: url(./images/image.svg);
+    background: url(./images/st_image.svg);
     padding: 30px;
     background-position: center;
     background-repeat: no-repeat;
@@ -34,6 +34,7 @@
     width: 167px;
     height: 32px;
     display: flex;
+    border: 1 px solid red;
     align-items: center;
     justify-content: center;
     color: #fff;
