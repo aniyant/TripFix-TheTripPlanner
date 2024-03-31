@@ -24,6 +24,11 @@ section#sk-newyork {
   .cards {
     border: 1px solid #e7e6e6;
     border-radius: 12px;
+    transition: 1s ease;
+    &:hover{
+      transform:scale(1.02);
+      opacity: 0.9;
+    }
     img {
       border-top-left-radius: 12px;
       border-top-right-radius: 12px;
@@ -50,6 +55,10 @@ section#sk-newyork {
       font-weight: 500;
       line-height: 24px;
       text-align: left;
+
+      &:hover{
+        color:red;
+      }
     }
     .rating {
       margin-top: 10px;

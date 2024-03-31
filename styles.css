@@ -491,6 +491,11 @@ section#sk-newyork #cards-box {
 section#sk-newyork .cards {
   border: 1px solid #e7e6e6;
   border-radius: 12px;
+  transition: 1s ease;
+}
+section#sk-newyork .cards:hover {
+  transform: scale(1.02);
+  opacity: 0.9;
 }
 section#sk-newyork .cards img {
   border-top-left-radius: 12px;
@@ -519,6 +524,9 @@ section#sk-newyork .cards .description {
   font-weight: 500;
   line-height: 24px;
   text-align: left;
+}
+section#sk-newyork .cards .description:hover {
+  color: red;
 }
 section#sk-newyork .cards .rating {
   margin-top: 10px;
@@ -689,6 +697,10 @@ section#sk-travels-sayings #img-flex {
   flex-direction: column;
   gap: 30px;
   position: relative;
+  transition: 1s ease;
+}
+#ak-travel-stories .ak_cardbox .ak_card1:hover {
+  transform: scale(1.02);
 }
 #ak-travel-stories .ak_cardbox .ak_card1 .ak-trip1 {
   width: 62.17px;
@@ -726,11 +738,18 @@ section#sk-travels-sayings #img-flex {
   line-height: 27px;
   color: #05073c;
 }
+#ak-travel-stories .ak_cardbox .ak_card1 h3:hover {
+  color: red;
+}
 #ak-travel-stories .ak_cardbox .ak_card2 {
   display: flex;
   flex-direction: column;
   gap: 30px;
   position: relative;
+  transition: 1s ease;
+}
+#ak-travel-stories .ak_cardbox .ak_card2:hover {
+  transform: scale(1.02);
 }
 #ak-travel-stories .ak_cardbox .ak_card2 .ak-trip2 {
   width: 62.17px;
@@ -768,11 +787,18 @@ section#sk-travels-sayings #img-flex {
   line-height: 27px;
   color: #05073c;
 }
+#ak-travel-stories .ak_cardbox .ak_card2 h3:hover {
+  color: red;
+}
 #ak-travel-stories .ak_cardbox .ak_card3 {
   display: flex;
   flex-direction: column;
   gap: 30px;
   position: relative;
+  transition: 1s ease;
+}
+#ak-travel-stories .ak_cardbox .ak_card3:hover {
+  transform: scale(1.02);
 }
 #ak-travel-stories .ak_cardbox .ak_card3 .ak-trip3 {
   width: 62.17px;
@@ -809,4 +835,7 @@ section#sk-travels-sayings #img-flex {
   font-weight: 500;
   line-height: 27px;
   color: #05073c;
+}
+#ak-travel-stories .ak_cardbox .ak_card3 h3:hover {
+  color: red;
 }/*# sourceMappingURL=styles.css.map */
