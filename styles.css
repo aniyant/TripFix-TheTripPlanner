@@ -50,6 +50,7 @@ section#sk-newyork .cards img {
   border-top-right-radius: 12px;
 }
 section#sk-newyork .cards .city {
+  width: -moz-fit-content;
   width: fit-content;
   margin-top: 10px;
   margin-left: 42px;
@@ -60,6 +61,7 @@ section#sk-newyork .cards .city {
   text-align: left;
 }
 section#sk-newyork .cards .description {
+  width: -moz-fit-content;
   width: fit-content;
   text-wrap: wrap;
   margin-top: 10px;
@@ -107,6 +109,7 @@ section#sk-travels-sayings {
   border-radius: 12px;
   padding: 75px 270px;
   margin-top: 105px;
+  margin-bottom: 115px;
 }
 section#sk-travels-sayings p {
   margin: 0px;
@@ -366,6 +369,4 @@ section#sk-travels-sayings #img-flex {
   font-weight: 500;
   line-height: 27px;
   color: #05073c;
-}
-
-/*# sourceMappingURL=styles.css.map */
+}/*# sourceMappingURL=styles.css.map */
