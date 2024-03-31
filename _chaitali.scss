@@ -1,7 +1,7 @@
 .main1{
     display: flex;
     justify-content: space-between;
-    
+    gap: 30px;
   }
   .bg_img1{
     background-image: url('CB_image(1).png');
@@ -111,4 +111,11 @@
   }
   #cbr44{
     padding: 20px;
+  }
+  #cb-choose-tour{
+    margin-top:200px;
+  }
+  div#cbr{
+    margin-bottom: 60px;
+    
   }
