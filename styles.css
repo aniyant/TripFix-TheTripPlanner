@@ -20,3 +20,42 @@ div.container {
   padding-left: 15px;
   padding-right: 15px;
 }/*# sourceMappingURL=styles.css.map */
+.main1{
+  display: flex;
+}
+.bg_img1{
+  background-image: url('CB_image\(1\).png');
+  width: 410px;
+height: 450px;
+gap: 0px;
+border-radius: 12px 0px 0px 0px;
+opacity: 0px;
+color: white;
+}
+.bg_img2{
+  background-image: url('CB_image\(2\).png');
+  width: 410px;
+height: 450px;
+gap: 0px;
+border-radius: 12px 0px 0px 0px;
+opacity: 0px;
+color: white;
+}
+.bg_img3{
+  background-image: url('CB_image\(3\).png');
+  width: 410px;
+height: 450px;
+gap: 0px;
+border-radius: 12px 0px 0px 0px;
+opacity: 0px;
+color: white;
+}
+.bg_img4{
+  background-image: url('CB_image\(4\).png');
+  width: 410px;
+height: 450px;
+gap: 0px;
+border-radius: 12px 0px 0px 0px;
+opacity: 0px;
+color: white;
+}
