@@ -50,7 +50,6 @@ section#sk-newyork .cards img {
   border-top-right-radius: 12px;
 }
 section#sk-newyork .cards .city {
-  width: -moz-fit-content;
   width: fit-content;
   margin-top: 10px;
   margin-left: 42px;
@@ -61,7 +60,6 @@ section#sk-newyork .cards .city {
   text-align: left;
 }
 section#sk-newyork .cards .description {
-  width: -moz-fit-content;
   width: fit-content;
   text-wrap: wrap;
   margin-top: 10px;
@@ -204,11 +202,11 @@ section#sk-travels-sayings #img-flex {
   justify-content: space-between;
 }
 #ak-travel-stories .ak_upbox h2 {
+  margin: 0px;
   width: 210.5px;
   height: 45px;
   padding-top: 5px;
   padding-left: 15px;
-  padding-bottom: 45px;
   font-family: Inter;
   font-size: 29.65px;
   font-weight: 700;
@@ -218,7 +216,6 @@ section#sk-travels-sayings #img-flex {
 #ak-travel-stories .ak_upbox p {
   padding-top: 21.88px;
   padding-right: 40.8px;
-  padding-bottom: 45px;
   width: 44.79px;
   height: 28.13px;
   font-family: Inter;
@@ -369,4 +366,6 @@ section#sk-travels-sayings #img-flex {
   font-weight: 500;
   line-height: 27px;
   color: #05073c;
-}/*# sourceMappingURL=styles.css.map */
+}
+
+/*# sourceMappingURL=styles.css.map */
