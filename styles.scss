@@ -1,23 +1,23 @@
 // default style start//
-body{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-    font-family: "Inter", sans-serif;
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
 }
-div.body-container{
-    max-width: 1920px;
-    height: auto;
-    margin:auto;
-    padding: 30px;
-    background-color: white;
+div.body-container {
+  max-width:1920px;
+  height: auto;
+  margin: auto;
+  padding: 0px;
+  background-color: white;
 }
-div.container{
-    max-width: 1320px;
-    height: auto;
-    margin:auto;
-    padding-left:15px;
-    padding-right: 15px;
+div.container {
+  max-width: 1320px;
+  height: auto;
+  margin: auto;
+  // padding-left: 15px;
+  // padding-right: 15px;
 }
 //default style end //
 @import "syed";
@@ -26,28 +26,3 @@ div.container{
 @import "sunny";
 @import "akash";
 @import "vishal";
-// IMPORTANT NOTE: PLEASE ADD YOUR STYLE INSIDE YOUR COMMENT BOX.
-
-// syed bhai styles part start//
-
-// syed bhai styles part end//
-
-// chaitali mam styles part start//
-
-// chaitali mam  styles part end//
-
-// rajat bhai styles part start//
-
-// rajat bhai styles part end //
-
-// sunny styles part start//
-
-// sunny styles part end//
-
-// akash bhai styles part start//
-
-// akash bhai styles part end//
-
-// vishal bhai styles part start//
-
-// vishal bhai styles part end//
