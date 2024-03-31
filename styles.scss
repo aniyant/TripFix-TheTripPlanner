@@ -1,23 +1,23 @@
 // default style start//
-body{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-    font-family: "Inter", sans-serif;
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
 }
-div.body-container{
-    max-width: 1920px;
-    height: auto;
-    margin:auto;
-    padding: 30px;
-    background-color: white;
+div.body-container {
+  max-width: 1920px;
+  height: auto;
+  margin: auto;
+  padding: 30px;
+  background-color: white;
 }
-div.container{
-    max-width: 1320px;
-    height: auto;
-    margin:auto;
-    padding-left:15px;
-    padding-right: 15px;
+div.container {
+  max-width: 1320px;
+  height: auto;
+  margin: auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 //default style end //
 @import "syed";
