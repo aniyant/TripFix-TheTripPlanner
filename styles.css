@@ -34,6 +34,17 @@ div.container {
   border-bottom: 1px solid #fff;
   opacity: 0px;
 }
+#syed .hover:hover {
+  color: red;
+}
+
+#ST-trending .hover:hover {
+  color: red;
+}
+
+#ST-trending .trendCalls > div {
+  transition: 1s ease;
+}
 
 .syed_nav {
   width: 100%;
@@ -264,6 +275,39 @@ div.container {
   line-height: 18.2px;
 }
 
+section#cb-featured {
+  margin-top: 110px;
+}
+section#cb-featured > div > h2 {
+  margin-bottom: 40px;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 45px;
+  text-align: left;
+}
+section#cb-featured > div > div {
+  transition: 1s ease;
+}
+section#cb-featured > div > div:hover {
+  transform: scale(1.03);
+}
+section#cb-featured > div > div > div > h3:hover {
+  color: red;
+}
+
+section#cb-choose-tour > div#cbr > h3 {
+  font-size: 29.3px;
+  font-weight: 700;
+  line-height: 45px;
+  margin: 0px;
+}
+section#cb-choose-tour > div#cbr > p {
+  font-size: 14.77px;
+  font-weight: 400;
+  line-height: 28.13px;
+  margin: 0px;
+}
+
 .main1 {
   display: flex;
   justify-content: space-between;
@@ -271,7 +315,7 @@ div.container {
 }
 
 .bg_img1 {
-  background-image: url("CB_image(1).png");
+  background-image: url("./images/CB_image(1).png");
   width: 410px;
   height: 450px;
   gap: 0px;
@@ -287,7 +331,7 @@ div.container {
 }
 
 .bg_img2 {
-  background-image: url("CB_image(2).png");
+  background-image: url("./images/CB_image(2).png");
   width: 410px;
   height: 450px;
   gap: 0px;
@@ -303,7 +347,7 @@ div.container {
 }
 
 .bg_img3 {
-  background-image: url("CB_image(3).png");
+  background-image: url("./images/CB_image(3).png");
   width: 410px;
   height: 450px;
   gap: 0px;
@@ -319,7 +363,7 @@ div.container {
 }
 
 .bg_img4 {
-  background-image: url("CB_image(4).png");
+  background-image: url("./images/CB_image(4).png");
   width: 410px;
   height: 450px;
   gap: 0px;
@@ -413,6 +457,9 @@ div.rs-popular_text {
   display: flex;
   justify-content: space-between;
   margin-top: 168px;
+}
+div.rs-popular_text .see-all-hover:hover {
+  color: red;
 }
 
 div.rs-popular_images {
@@ -595,6 +642,19 @@ div.rs-popular_images > div:nth-of-type(5):hover {
 
 div.rs-popular_images > div:nth-of-type(6):hover {
   opacity: 50%;
+}
+
+#rs-popular .rs_hover_effect {
+  transition: 1s ease;
+}
+
+#rs-popular .rs_hover_effect:hover {
+  transform: scale(1.03);
+  opacity: 80%;
+}
+
+#rs-popular .rs_hover_effect span:hover {
+  color: red;
 }
 
 section#sk-newyork,
@@ -809,6 +869,9 @@ section#sk-travels-sayings #img-flex {
   font-weight: 400;
   color: #05073c;
 }
+#ak-travel-stories .ak_upbox P:hover {
+  color: red;
+}
 #ak-travel-stories .ak_cardbox {
   display: flex;
   gap: 30px;
@@ -965,15 +1028,22 @@ section#sk-travels-sayings #img-flex {
   line-height: 27px;
   color: #05073c;
 }
+#ak-travel-stories .ak_cardbox .ak_card3 h3:hover {
+  color: red;
+}
 
 footer {
   font-family: Inter;
   background-color: #fef7f4;
+  margin-top: 105px;
+  padding-bottom: 40px;
 }
 footer .contact {
   display: flex;
   justify-content: space-between;
   padding: 90px 105px 60px 105px;
+  padding-top: 90px;
+  padding-bottom: 60px;
 }
 footer .contact p span {
   color: #eb662b;
@@ -985,7 +1055,6 @@ footer hr {
 footer .links {
   display: flex;
   justify-content: space-between;
-  padding: 0 100px;
 }
 footer .links p {
   font-size: 14px;
@@ -1008,10 +1077,13 @@ footer .links .company-link .footer-input input {
   padding: 20px 22px;
   border: 1px solid lightgray;
   border-radius: 10px;
+  border-right: none;
+  border-top-right-radius: none;
+  border-bottom-right-radius: none;
+  font-size: medium;
+  font-weight: 500;
 }
 footer .links .company-link .footer-input button {
-  position: absolute;
-  left: 150px;
   padding: 20px 22px;
   background-color: rgb(255, 255, 255);
   border: 1px solid lightgray;
@@ -1027,11 +1099,18 @@ footer .links .company-link .footer-input button:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 25px 100px;
+  padding: 10px 20px;
 }
 #vk-page-end p {
   font-size: 12px;
 }
-#ak-travel-stories .ak_cardbox .ak_card3 h3:hover {
-  color: red;
+
+.links p, .links a {
+  font-family: Inter;
+  font-size: 14.41px;
+  font-weight: 400;
+  line-height: 28.13px;
+  text-align: left;
+  margin: 0px;
+  padding: 0px;
 }/*# sourceMappingURL=styles.css.map */

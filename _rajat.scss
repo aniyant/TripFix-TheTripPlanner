@@ -1,4 +1,3 @@
-
 div.rs-popular_text>span:nth-of-type(1)
 {
     font-size: 29.88px;
@@ -24,6 +23,9 @@ div.rs-popular_text
     display: flex;
     justify-content: space-between;
     margin-top: 168px;
+    .see-all-hover:hover{
+        color:red;
+    }
    
 }
 div.rs-popular_images
@@ -232,5 +234,15 @@ div.rs-popular_images>div:nth-of-type(6):hover
    
 }
 
+#rs-popular .rs_hover_effect{
+    transition:1s ease;
+}
 
+#rs-popular .rs_hover_effect:hover{
+    transform:scale(1.03);
+    opacity: 80%;
+}
+#rs-popular .rs_hover_effect span:hover{
+    color:red;
+}
 

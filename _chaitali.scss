@@ -1,10 +1,45 @@
+section#cb-featured{
+  margin-top: 110px;
+  >div>h2{
+    margin-bottom: 40px;
+font-size: 30px;
+font-weight: 700;
+line-height: 45px;
+text-align: left;
+
+  }
+  >div>div{
+    transition:1s ease;
+  }
+  >div>div:hover{
+    transform:scale(1.03);
+  }
+  >div>div>div>h3:hover{
+    color:red;
+  }
+}
+section#cb-choose-tour{
+  >div#cbr>h3{
+font-size: 29.3px;
+font-weight: 700;
+line-height: 45px;
+margin: 0px;
+
+  }
+  >div#cbr>p{
+font-size: 14.77px;
+font-weight: 400;
+line-height: 28.13px;
+margin: 0px;
+  }
+}
 .main1 {
   display: flex;
   justify-content: space-between;
   gap: 30px;
 }
 .bg_img1 {
-  background-image: url("CB_image(1).png");
+  background-image: url("./images/CB_image(1).png");
   width: 410px;
   height: 450px;
   gap: 0px;
@@ -19,7 +54,7 @@
   justify-content: space-between;
 }
 .bg_img2 {
-  background-image: url("CB_image\(2\).png");
+  background-image: url("./images/CB_image\(2\).png");
   width: 410px;
   height: 450px;
   gap: 0px;
@@ -34,7 +69,7 @@
   justify-content: space-between;
 }
 .bg_img3 {
-  background-image: url("CB_image\(3\).png");
+  background-image: url("./images/CB_image\(3\).png");
   width: 410px;
   height: 450px;
   gap: 0px;
@@ -49,7 +84,7 @@
   justify-content: space-between;
 }
 .bg_img4 {
-  background-image: url("CB_image\(4\).png");
+  background-image: url("./images/CB_image\(4\).png");
   width: 410px;
   height: 450px;
   gap: 0px;

@@ -1,10 +1,14 @@
 footer {
   font-family: Inter;
   background-color: #fef7f4;
+  margin-top: 105px;
+  padding-bottom: 40px;
   .contact {
     display: flex;
     justify-content: space-between;
     padding: 90px 105px 60px 105px;
+    padding-top: 90px;
+    padding-bottom: 60px;
     p {
       span {
         color: #eb662b;
@@ -18,7 +22,7 @@ footer {
   .links {
     display: flex;
     justify-content: space-between;
-    padding: 0 100px;
+    // padding: 0 100px;
     p {
       font-size: 14px;
     }
@@ -39,10 +43,15 @@ footer {
           padding: 20px 22px;
           border: 1px solid lightgray;
           border-radius: 10px;
+          border-right: none;
+          border-top-right-radius: none;
+          border-bottom-right-radius: none;
+          font-size: medium;
+          font-weight: 500;
         }
         button {
-          position: absolute;
-          left: 150px;
+          // position: absolute;
+          // left: 150px;
           padding: 20px 22px;
           background-color: rgb(255, 255, 255);
           border: 1px solid lightgray;
@@ -62,8 +71,20 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 25px 100px;
+  padding: 10px 20px;
   p {
     font-size: 12px;
+  }
+}
+
+.links{
+  p, a{
+    font-family: Inter;
+font-size: 14.41px;
+font-weight: 400;
+line-height: 28.13px;
+text-align: left;
+margin: 0px;
+padding: 0px;
   }
 }
