@@ -55,6 +55,7 @@
   
   .logoAndLinks > div:nth-of-type(2) > span:hover {
     cursor: pointer;
+    transition: 0.5s ease;
     color: #eb642a;
   }
   
@@ -142,6 +143,7 @@
     background: transparent;
     color: #fff;
     cursor: pointer;
+    transition: 0.5s ease;
   }
   
   .landing > div:nth-of-type(1) > button:hover {
@@ -206,6 +208,7 @@
       rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
     border-radius: 20px;
     gap: 20px;
+    transition: 0.5s ease;
   }
   
   .trendCalls > div:hover {
