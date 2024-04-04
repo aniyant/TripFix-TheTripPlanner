@@ -50,8 +50,8 @@ To run this project locally:
 3. Explore the TripFix experience right from your device.
 
 ## Contributors
-@aniyant
-@mr-taqi
+aniyant[https://github.com/aniyant]
+mr-taqi
 @Chaitali124
 @Akash2304
 @rajatsah95
